@@ -1,0 +1,77 @@
+
+/* 
+    Created on : 27/04/2019, 06:10:06 PM
+    Author     : Lesly Samaritano Ayala
+*/
+
+.body{
+    margin-bottom: 0;
+}
+
+.navbar{
+	border-bottom: #00BFA5 3px solid;
+	opacity: .7;
+}
+
+#home-section{
+	background: url('img/banner.jsp') no-repeat;
+	min-height: 50vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.dark-overlay{
+	background-color: rgba(0, 0, 0, .7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 100%;
+}
+
+.home-inner{
+	padding: 150px;
+}
+
+@media (max-width: 992px){
+	.home-inner{
+		padding-top: 100px;
+	}
+}
+
+.jumbotron { 
+    background-color: #00BFA5;
+    color: #ffffff;
+}
+
+.color{
+    background-color: #01579B;
+}
+
+.tamanio{
+    font-size: 20px;
+}
+
+.table{
+    background:#FFA726;
+}
+
+.fondo{
+    background-color: #7986CB;
+}
+
+.bg-3 { 
+    /*    background-color: #ffffff;  White */
+    color: #555555;
+}
+
+.imagentamanio{
+    width: 50px;
+    height: 50px;
+}
+
+body div p{
+    margin: 0 ;
+    padding: 0;
+}
+
