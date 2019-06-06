@@ -1,7 +1,7 @@
 <%-- 
     Document   : guardarSolicitudPedido
     Created on : 18-may-2019, 4:17:21
-    Author     : luis
+    Author     : lesly
 --%>
 
 <%@page import="coleccion.DatosProceso"%>
@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-xs-12 col-md-4">
                     <%
-                        //Creacion del objeto Pedido y pase de parametros del formulario SolicitarPedido.jspç
+                        //Creacion del objeto Pedido y pase de parametros del formulario SolicitarPedido.jspÃ§
                         try {
                             Pedido pedido = new Pedido();
                             pedido.setCodPedido(Integer.valueOf(request.getParameter("codPed")));
